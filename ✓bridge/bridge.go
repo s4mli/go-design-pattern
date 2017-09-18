@@ -26,7 +26,7 @@ func (sdi *StringDisplayImp) rawClose(what int) string {
 
 func (sdi *StringDisplayImp) printLine(what int) string {
 	str := "+"
-	for _, _ = range strconv.Itoa(what) {
+	for range strconv.Itoa(what) {
 		str += "-"
 	}
 	str += "+\n"
