@@ -1,2 +1,3 @@
-# golang-DP
+# golang design pattern
+
 golang design patterns
