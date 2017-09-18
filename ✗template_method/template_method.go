@@ -57,7 +57,7 @@ func (sd *StringDisplay) close() string {
 
 func (sd *StringDisplay) printLine() string {
 	line := "+-"
-	for _, _ = range sd.Str {
+	for range sd.Str {
 		line += "-"
 	}
 	line += "-+\n"

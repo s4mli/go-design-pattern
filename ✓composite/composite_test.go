@@ -21,6 +21,5 @@ func TestComposite(t *testing.T) {
 	result := rootDir.PrintList("")
 
 	expect := "/root (3)\n/root/usr (2)\n/root/usr/B (2)\n/root/A (1)\n"
-	t.Log("\nResult is:\n", result)
 	assert.Equal(t, expect, result)
 }
